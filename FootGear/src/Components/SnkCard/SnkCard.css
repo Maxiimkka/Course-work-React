@@ -1,0 +1,93 @@
+.item-box {
+  height: 270px;
+  width: 280px;
+  position: relative;
+  background-color: white;
+  border-radius: 30px;
+  box-shadow: 1px 5px 10px 5px #d3d3d6, -10px -10px 10px rgb(228, 226, 226);
+}
+@media screen and (max-width: 900px) {
+  .item-box {
+    height: 210px;
+    width: 240px;
+    border-radius: 30px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .item-box {
+    height: 190px;
+    width: 220px;
+  }
+}
+.item-box img {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  object-fit: contain;
+}
+@media screen and (max-width: 900px) {
+  .item-box img {
+    height: 140px;
+    width: 140px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .item-box img {
+    height: 130px;
+    width: 130px;
+  }
+}
+.item-box h2 {
+  margin-top: 10px;
+  font-size: 20px;
+  text-align: center;
+  color: black;
+}
+@media screen and (max-width: 900px) {
+  .item-box h2 {
+    font-size: 19px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .item-box h2 {
+    font-size: 18px;
+  }
+}
+.item-box button {
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 10px 21px;
+  font-size: 18px;
+  position: absolute;
+  bottom: 0%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  background-color: black;
+  font-weight: 600;
+  -webkit-transition: all 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: all 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+@media screen and (max-width: 900px) {
+  .item-box button {
+    font-size: 16px;
+    padding: 8px 14px;
+    bottom: 0%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .item-box button {
+    font-size: 15px;
+    padding: 7px 12px;
+    bottom: 0%;
+  }
+}
+.item-box button:hover {
+  background: rgba(148, 144, 143, 0.4);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  color: black;
+  font-weight: 600;
+}/*# sourceMappingURL=SnkCard.css.map */
